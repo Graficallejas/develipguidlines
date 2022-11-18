@@ -9,6 +9,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatCardModule } from '@angular/material/card';
+
+// Componentes
+
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { RecetasComponent } from './recetas/recetas.component';
 import { BackLineamientosGenComponent } from './back-lineamientos-gen/back-lineamientos-gen.component';
@@ -63,7 +67,8 @@ import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],

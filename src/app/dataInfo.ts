@@ -2,6 +2,7 @@ export const listMenu = [
     {
       namePrincipal: "Home",
       iconMenu: "home",
+      path: "home",
       submenu: [{
         nameSubmenu: "Home",
         path: "home"
@@ -11,6 +12,7 @@ export const listMenu = [
     {
       namePrincipal: "Global",
       iconMenu: "public",
+      path: "tecnologia",
       submenu: [{
         nameSubmenu: "Tecnología",
         path: "tecnologia"
@@ -57,6 +59,7 @@ export const listMenu = [
     {
       namePrincipal: "Backend",
       iconMenu: "backup_table",
+      path: "lineamientosGen",
       submenu: [{
         nameSubmenu: "lineamientos generales",
         path: "lineamientosGen"
@@ -78,19 +81,21 @@ export const listMenu = [
     {
       namePrincipal: "Frontend",
       iconMenu: "code",
+      path: "frontbuenaspracticas",
       submenu: [{
-        nameSubmenu: "BEM",
-        path: "bem"
-      },
-      {
         nameSubmenu: "Buenas Practicas",
         path: "frontbuenaspracticas"
+      },
+        {
+        nameSubmenu: "BEM",
+        path: "bem"
       }
       ]
     },
     {
       namePrincipal: "Diseño",
       iconMenu: "brush",
+      path: "reglasux",
       submenu: [{
         nameSubmenu: "Reglas UX",
         path: "reglasux"
