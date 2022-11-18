@@ -4,7 +4,7 @@ export const listMenu = [
       iconMenu: "home",
       submenu: [{
         nameSubmenu: "Home",
-        path: "#"
+        path: "home"
       }
       ]
     },
@@ -13,19 +13,19 @@ export const listMenu = [
       iconMenu: "public",
       submenu: [{
         nameSubmenu: "Tecnología",
-        path: "#"
+        path: "tecnologia"
       },
       {
         nameSubmenu: "Uso de Azure DevOps, Scrum",
-        path: "#"
+        path: "usoazure"
       },
       {
         nameSubmenu: "Distribucion de carpetas",
-        path: "#"
+        path: "folderdistribution"
       },
       {
         nameSubmenu: "Codigo Limpio",
-        path: "#"
+        path: "cleancode"
       }
       ]
     },
@@ -34,23 +34,23 @@ export const listMenu = [
       iconMenu: "cloud_queue",
       submenu: [{
         nameSubmenu: "Recetas",
-        path: "#"
+        path: "recetas"
       },
       {
         nameSubmenu: "HEALTH",
-        path: "#"
+        path: "health"
       },
       {
         nameSubmenu: "Mapa de desarrollo",
-        path: "#"
+        path: "developmap"
       },
       {
         nameSubmenu: "Uso de variables de ambiente Prod/Dev",
-        path: "#"
+        path: "enviromentvariables"
       },
       {
         nameSubmenu: "Peticiones HTTP",
-        path: "#"
+        path: "peticioneshttp"
       }
       ]
     },
@@ -59,19 +59,19 @@ export const listMenu = [
       iconMenu: "backup_table",
       submenu: [{
         nameSubmenu: "lineamientos generales",
-        path: "#"
+        path: "lineamientosGen"
       },
       {
         nameSubmenu: "APIs",
-        path: "#"
+        path: "apis"
       },
       {
         nameSubmenu: "Buenas Practicas",
-        path: "#"
+        path: "backbuenaspracticas"
       },
       {
         nameSubmenu: "Azure Functions",
-        path: "#"
+        path: "azurefunctions"
       }
       ]
     },
@@ -80,19 +80,11 @@ export const listMenu = [
       iconMenu: "code",
       submenu: [{
         nameSubmenu: "BEM",
-        path: "#"
-      },
-      {
-        nameSubmenu: "HTML",
-        path: "#"
-      },
-      {
-        nameSubmenu: "Estilos",
-        path: "#"
+        path: "bem"
       },
       {
         nameSubmenu: "Buenas Practicas",
-        path: "#"
+        path: "frontbuenaspracticas"
       }
       ]
     },
@@ -101,27 +93,23 @@ export const listMenu = [
       iconMenu: "brush",
       submenu: [{
         nameSubmenu: "Reglas UX",
-        path: "#"
+        path: "reglasux"
       },
       {
         nameSubmenu: "Look and feel",
-        path: "#"
+        path: "lookandfeel"
       },
       {
         nameSubmenu: "Paleta de Colores",
-        path: "#"
+        path: "colorpalet"
       },
       {
         nameSubmenu: "Tipografía",
-        path: "#"
-      },
-      {
-        nameSubmenu: "Iconografía",
-        path: "#"
+        path: "tipografia"
       },
       {
         nameSubmenu: "Manual de Marca",
-        path: "#"
+        path: "brand"
       }
       ]
     },

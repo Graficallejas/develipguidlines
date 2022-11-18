@@ -30,7 +30,9 @@
                 </mat-panel-title>
               </mat-expansion-panel-header>
               <ul>
-                <li *ngFor="let subMenu of menu.submenu">{{subMenu.nameSubmenu}}</li>
+                <li *ngFor="let subMenu of menu.submenu">
+                  <a href="{{subMenu.path}}">{{subMenu.nameSubmenu}}</a>
+                </li>
               </ul>
             </mat-expansion-panel>
           </mat-accordion>
@@ -43,9 +45,6 @@
     </div>
   </mat-drawer>
   <div>
-
-    contenido
-
-
+    <router-outlet></router-outlet>
   </div>
 </mat-drawer-container>
