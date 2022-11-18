@@ -22,7 +22,7 @@
         </div>
         <div class="nav__menu">
           <mat-accordion>
-            <mat-expansion-panel *ngFor="let menu of dataMenu">
+            <mat-expansion-panel *ngFor="let menu of dataText.listMenu">
               <mat-expansion-panel-header>
                 <mat-panel-title>
                   <mat-icon>{{menu.iconMenu}}</mat-icon>
@@ -38,6 +38,7 @@
       </div>
       <div class="menuFooter">
         <img src="../assets/logo-menu.png" alt="">
+        <p>Versión 2.0</p>
       </div>
     </div>
   </mat-drawer>

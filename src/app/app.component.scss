@@ -102,6 +102,10 @@ mat-drawer-container {
             .menuFooter {
                 border-top: 1px solid $silver-300;
                 padding: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                color: $silver-500;
             }
         }
     }
