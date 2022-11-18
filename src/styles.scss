@@ -2,5 +2,22 @@
 
 @import "globalStyle/variable.scss";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: museo;
+    src: url(assets/font/MuseoSans.otf) format("opentype");
+  }
+
+body {
+    font-family: museo !important ;
+    background-color: $grey-backGround;
+    color: $logyca-grey-regular;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
