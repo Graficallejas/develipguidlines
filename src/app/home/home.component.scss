@@ -29,11 +29,11 @@ flex-direction: column;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                cursor:pointer;
             }
             mat-card-title{
                 text-align: center;
                 padding-top: 25px;
+                cursor:pointer;
                 a{
                     color: $logyca-grey-regular;
                     text-decoration: none;
