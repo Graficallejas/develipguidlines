@@ -75,26 +75,21 @@ mat-drawer-container {
                             }
                         }
 
-                        ul {
-                            li {
-                                margin-left: 25px;
-                                padding: 5px;
-                                border-bottom: 1px solid $silver-200;
-                                cursor: pointer;
-                                a{
-                                    text-decoration: none;
-                                    color: $logyca-grey-regular;
-                                }
+                        .menuList {
+                            margin-left: 25px;
+                            padding: 5px;
+                            border-bottom: 1px solid $silver-200;
+                            cursor: pointer;
+                            a {
+                                text-decoration: none;
+                                color: $logyca-grey-regular;
                             }
 
-                            li:hover {
-                                background-color: $silver-50;
-                            }
-
-                            li::marker {
-                                color: white;
-                            }
                         }
+                        .menuList:hover{
+                            background-color: $silver-50;
+                        }
+
                     }
                 }
             }

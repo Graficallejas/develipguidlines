@@ -27,11 +27,9 @@
                   {{menu.namePrincipal}}
                 </mat-panel-title>
               </mat-expansion-panel-header>
-              <ul>
-                <li *ngFor="let subMenu of menu.submenu">
-                  <a href="{{subMenu.path}}">{{subMenu.nameSubmenu}}</a>
-                </li>
-              </ul>
+              <div class="menuList" *ngFor="let subMenu of menu.submenu">
+                <a href="{{subMenu.path}}">{{subMenu.nameSubmenu}}</a>
+              </div>
             </mat-expansion-panel>
           </mat-accordion>
         </div>
