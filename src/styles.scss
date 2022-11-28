@@ -38,11 +38,31 @@ body {
                 justify-content: center;
                 align-items: center;
             }
+            mat-card-subtitle{
+                text-align: justify;
+            }
         }
 
         mat-card-content {
             margin: 25px 0 50px 0;
-
+            .sectionSubtitle{
+                font-weight: 700;
+                font-size: 16px;
+            }
+            .codeContainer{
+                margin-top: 16px;
+            }
+            .actionButton{
+                form{
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 25px;
+                    button{
+                        margin-left: 16px;
+                    }
+                }
+            }
             .note {
                 background-color: $silver-50;
                 padding: 16px;
@@ -66,6 +86,11 @@ body {
             }
         }
     }
+    button{
+        text-transform: uppercase;
+        min-width: 150px;
+        height: 56px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -76,7 +101,6 @@ body {
             padding: 16px;
         }
     }
-
 }
 
 table {

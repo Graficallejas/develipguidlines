@@ -6,7 +6,6 @@ import { BackLineamientosGenComponent } from './back-lineamientos-gen/back-linea
 import { BemComponent } from './bem/bem.component';
 import { BrandComponent } from './brand/brand.component';
 import { BuenasPracticasBackComponent } from './buenas-practicas-back/buenas-practicas-back.component';
-import { CleanCodeComponent } from './clean-code/clean-code.component';
 import { ColorPaletComponent } from './color-palet/color-palet.component';
 import { DevelopMapComponent } from './develop-map/develop-map.component';
 import { EnvironmentVariablesComponent } from './environment-variables/environment-variables.component';
@@ -24,7 +23,6 @@ const routes: Routes = [
   { path: 'tecnologia', component: TecnologiaComponent},
   { path: 'usoazure', component: UsoAzureComponent},
   { path: 'folderdistribution', component: FolderDistributionComponent},
-  { path: 'cleancode', component: CleanCodeComponent},
   { path: 'recetas', component: RecetasComponent},
   { path: 'health', component: HealthComponent},
   { path: 'developmap', component: DevelopMapComponent},

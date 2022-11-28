@@ -23,7 +23,6 @@ import { ReglasUXComponent } from './reglas-ux/reglas-ux.component';
 import { HomeComponent } from './home/home.component';
 import { UsoAzureComponent } from './uso-azure/uso-azure.component';
 import { FolderDistributionComponent } from './folder-distribution/folder-distribution.component';
-import { CleanCodeComponent } from './clean-code/clean-code.component';
 import { HealthComponent } from './health/health.component';
 import { DevelopMapComponent } from './develop-map/develop-map.component';
 import { EnvironmentVariablesComponent } from './environment-variables/environment-variables.component';
@@ -48,7 +47,6 @@ import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
     HomeComponent,
     UsoAzureComponent,
     FolderDistributionComponent,
-    CleanCodeComponent,
     HealthComponent,
     DevelopMapComponent,
     EnvironmentVariablesComponent,

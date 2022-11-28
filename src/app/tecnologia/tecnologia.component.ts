@@ -13,6 +13,8 @@ export class TecnologiaComponent implements OnInit {
   displayedColumns = this.dataText.displayColumns;
   dataSource = this.dataText.technologyYTableCell;
 
+  cardHead = this.dataText.tecnologyHead;
+
 
   constructor() { }
   
