@@ -11,10 +11,10 @@
 @font-face {
     font-family: museo;
     src: url(assets/font/MuseoSans.otf) format("opentype");
-  }
+}
 
 body {
-    font-family: museo !important ;
+    font-family: museo !important;
     background-color: $grey-backGround;
     color: $logyca-grey-regular;
     width: 100%;
@@ -22,11 +22,85 @@ body {
     margin: 0;
 }
 
-.wrap{
+.wrap {
     width: 100%;
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 50px;
     overflow: auto;
+
+    mat-card {
+        padding: 30px;
+
+        mat-card-header {
+            .icon_avatar {
+                color: $logyca-orange-regular;
+                background-color: $silver-100;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        mat-card-content {
+            margin: 25px 0 50px 0;
+
+            .note {
+                background-color: $silver-50;
+                padding: 16px;
+                border-radius: 8px;
+
+                &__title {
+                    display: flex;
+                    align-items: center;
+                    color: $logyca-orange-regular;
+                    margin-bottom: 5px;
+
+                    .title {
+                        font-weight: 700;
+                        margin-left: 16px;
+                    }
+                }
+
+                &__content {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .wrap {
+        padding: 25px;
+
+        mat-card {
+            padding: 16px;
+        }
+    }
+
+}
+
+table {
+    width: 100%;
+
+    th {
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        text-align: justify !important;
+        background-color: $silver-100;
+        font-size: 50px;
+        border-bottom: none;
+    }
+
+    th:first-child {
+        border-radius: 8px 0 0 8px;
+
+    }
+
+    th:last-child {
+        border-radius: 0 8px 8px 0;
+    }
+
+    td {
+        color: $logyca-grey-regular;
+    }
 }

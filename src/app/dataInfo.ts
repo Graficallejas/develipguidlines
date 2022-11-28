@@ -119,3 +119,81 @@ export const listMenu = [
       ]
     },
   ];
+
+  export const displayColumns = [
+    "module","language","framework" 
+  ];
+
+  export const technologyYTableCell = [
+    {
+      module: "Backend",
+      language: "Python",
+      framework: "Fast API"
+    },
+    {
+      module: "Backend",
+      language: "Python",
+      framework: "Flask"
+    },
+    {
+      module: "Backend",
+      language: "Python",
+      framework: "Django"
+    },
+    {
+      module: "Backend",
+      language: ".Net",
+      framework: ".NET 6"
+    },
+    {
+      module: "Frontend",
+      language: "TypeScript",
+      framework: "Angular o React"
+    },
+    {
+      module: "Frontend",
+      language: "Javascript",
+      framework: "Angular o React"
+    },
+    {
+      module: "Frontend",
+      language: "HTML 5",
+      framework: "Uso de metodología BEM para organización de código HTML"
+    },
+    {
+      module: "Frontend",
+      language: "SCSS",
+      framework: "Uso de metodología BEM para organización de código SCSS"
+    },
+    {
+      module: "BD",
+      language: "SQL",
+      framework: "Azure Postgress SQL"
+    },
+    {
+      module: "BD",
+      language: "SQL",
+      framework: "Azure SQL Server"
+    },
+    {
+      module: "Analítica",
+      language: "Python",
+      framework: "Pandas"
+    },
+    {
+      module: "Analítica",
+      language: "SQL",
+      framework: "Azure Postgress SQL"
+    },
+    {
+      module: "Analítica",
+      language: "SQL",
+      framework: "Azure SQL Server"
+    },
+    {
+      module: "Analítica",
+      language: "DAX",
+      framework: "Power BI / Azure Analysis Services"
+    },
+
+  ];

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from '../dataInfo';
 
 @Component({
   selector: 'app-tecnologia',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TecnologiaComponent implements OnInit {
 
+  dataText = dataInfo;
+
+  displayedColumns = this.dataText.displayColumns;
+  dataSource = this.dataText.technologyYTableCell;
+
+
   constructor() { }
+  
 
   ngOnInit(): void {
   }
+
+  
 
 }
