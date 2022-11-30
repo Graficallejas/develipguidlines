@@ -156,14 +156,14 @@ export const developMap =
 export const requests =
 {
   icon: "http",
-  title: "Lienamientos generales",
+  title: "Objeto genérico de respuestas a peticiones HTTP",
   subtitle: "Especificaciones técnicas respuesta a peticiones HTTP curso y futuros en LOGYCA. Estas del desarrollador de software para la recepción y envío de (Request / Response) a implementar en los desarrollos en se convierten en un marco de referencia para el trabajo para la construcción de APIs y Backends indiferentemente la tecnología en la que estos estén construidos. Los ejemplos presentados durante este documento están en .Net, se deberá hacer el código homologo frameworks . cuando se utilicen otros framewoks."
 };
 
 export const guidlines =
 {
   icon: "format_list_numbered",
-  title: "Objeto genérico de respuestas a peticiones HTTP",
+  title: "Lienamientos generales",
   subtitle: "Consulte los lineamientos generales de Backend para las plataformas LOGYCA."
 };
 
