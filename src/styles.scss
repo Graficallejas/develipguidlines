@@ -38,31 +38,47 @@ body {
                 justify-content: center;
                 align-items: center;
             }
-            mat-card-subtitle{
+
+            mat-card-subtitle {
                 text-align: justify;
             }
         }
 
         mat-card-content {
             margin: 25px 0 50px 0;
-            .sectionSubtitle{
+
+            .sectionSubtitle {
                 font-weight: 700;
                 font-size: 16px;
+                margin: 25px 0;
             }
-            .codeContainer{
+
+            p {
+                text-align: justify;
+            }
+
+            .sectionItemTitle {
+                color: $logyca-orange-regular;
+                font-weight: 500;
+            }
+
+            .codeContainer {
                 margin-top: 16px;
             }
-            .actionButton{
-                form{
+
+            .actionButton {
+                form {
                     width: 100%;
                     display: flex;
                     justify-content: flex-end;
                     margin-top: 25px;
-                    button{
+
+                    button {
                         margin-left: 16px;
                     }
                 }
             }
+
             .note {
                 background-color: $silver-50;
                 padding: 16px;
@@ -86,10 +102,19 @@ body {
             }
         }
     }
-    button{
+
+    button {
         text-transform: uppercase;
         min-width: 150px;
         height: 56px;
+    }
+
+    ul{
+        margin-left: 25px;
+    }
+
+    ul li::marker {
+        color: $logyca-orange-regular;
     }
 }
 
