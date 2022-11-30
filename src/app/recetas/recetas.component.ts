@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from '../dataInfo';
 
 @Component({
   selector: 'app-recetas',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recetas.component.scss']
 })
 export class RecetasComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.prescriptions;
 
   constructor() { }
 

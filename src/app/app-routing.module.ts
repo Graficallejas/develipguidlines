@@ -12,10 +12,12 @@ import { EnvironmentVariablesComponent } from './environment-variables/environme
 import { FolderDistributionComponent } from './folder-distribution/folder-distribution.component';
 import { HealthComponent } from './health/health.component';
 import { HomeComponent } from './home/home.component';
+import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
 import { PeticionesHTTPComponent } from './peticiones-http/peticiones-http.component';
 import { RecetasComponent } from './recetas/recetas.component';
 import { ReglasUXComponent } from './reglas-ux/reglas-ux.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
+import { TipografiaComponent } from './tipografia/tipografia.component';
 import { UsoAzureComponent } from './uso-azure/uso-azure.component';
 
 const routes: Routes = [
@@ -35,9 +37,9 @@ const routes: Routes = [
   { path: 'bem', component: BemComponent},
   { path: 'frontbuenaspracticas', component: BuenasPracticasBackComponent},
   { path: 'reglasux', component: ReglasUXComponent},
-  { path: 'lookandfeel', component: ReglasUXComponent},
+  { path: 'lookandfeel', component: LookAndFeelComponent},
   { path: 'colorpalet', component: ColorPaletComponent},
-  { path: 'tipografia', component: ReglasUXComponent},
+  { path: 'tipografia', component:  TipografiaComponent},
   { path: 'brand', component: BrandComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'home'},
 
