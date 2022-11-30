@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from '../dataInfo';
 
 @Component({
   selector: 'app-peticiones-http',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./peticiones-http.component.scss']
 })
 export class PeticionesHTTPComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.requests;
 
   constructor() { }
 
