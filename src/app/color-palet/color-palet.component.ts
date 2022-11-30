@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from '../dataInfo';
 
 @Component({
   selector: 'app-color-palet',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./color-palet.component.scss']
 })
 export class ColorPaletComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.colorPaletHead;
+  colorsInfo = this.dataText.colorPaletInfo;
 
   constructor() { }
 
