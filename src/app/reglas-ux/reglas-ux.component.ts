@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from '../dataInfo';
 
 @Component({
   selector: 'app-reglas-ux',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reglas-ux.component.scss']
 })
 export class ReglasUXComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.ruleUXUI;
 
   constructor() { }
 
