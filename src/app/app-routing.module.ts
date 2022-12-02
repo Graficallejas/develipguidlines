@@ -13,6 +13,7 @@ import { FolderDistributionComponent } from './folder-distribution/folder-distri
 import { HealthComponent } from './health/health.component';
 import { HomeComponent } from './home/home.component';
 import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
+import { MetodproyectComponent } from './metodproyect/metodproyect.component';
 import { PeticionesHTTPComponent } from './peticiones-http/peticiones-http.component';
 import { RecetasComponent } from './recetas/recetas.component';
 import { ReglasUXComponent } from './reglas-ux/reglas-ux.component';
@@ -41,6 +42,7 @@ const routes: Routes = [
   { path: 'colorpalet', component: ColorPaletComponent},
   { path: 'tipografia', component:  TipografiaComponent},
   { path: 'brand', component: BrandComponent},
+  { path: 'metodproyect', component: MetodproyectComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'home'},
 
 ];
