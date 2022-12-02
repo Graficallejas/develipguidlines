@@ -35,6 +35,7 @@ import { ColorPaletComponent } from './color-palet/color-palet.component';
 import { TipografiaComponent } from './tipografia/tipografia.component';
 import { BrandComponent } from './brand/brand.component';
 import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
+import { MetodproyectComponent } from './metodproyect/metodproyect.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
     TipografiaComponent,
     BrandComponent,
     LookAndFeelComponent,
+    MetodproyectComponent,
   ],
   imports: [
     BrowserModule,
