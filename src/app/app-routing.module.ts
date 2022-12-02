@@ -6,6 +6,7 @@ import { BackLineamientosGenComponent } from './back-lineamientos-gen/back-linea
 import { BemComponent } from './bem/bem.component';
 import { BrandComponent } from './brand/brand.component';
 import { BuenasPracticasBackComponent } from './buenas-practicas-back/buenas-practicas-back.component';
+import { BuenasPracticasFrontComponent } from './buenas-practicas-front/buenas-practicas-front.component';
 import { ColorPaletComponent } from './color-palet/color-palet.component';
 import { DevelopMapComponent } from './develop-map/develop-map.component';
 import { EnvironmentVariablesComponent } from './environment-variables/environment-variables.component';
@@ -36,7 +37,7 @@ const routes: Routes = [
   { path: 'backbuenaspracticas', component: BuenasPracticasBackComponent},
   { path: 'azurefunctions', component: AzureFunctionsComponent},
   { path: 'bem', component: BemComponent},
-  { path: 'frontbuenaspracticas', component: BuenasPracticasBackComponent},
+  { path: 'frontbuenaspracticas', component: BuenasPracticasFrontComponent},
   { path: 'reglasux', component: ReglasUXComponent},
   { path: 'lookandfeel', component: LookAndFeelComponent},
   { path: 'colorpalet', component: ColorPaletComponent},
