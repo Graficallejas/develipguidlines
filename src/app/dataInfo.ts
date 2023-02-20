@@ -14,23 +14,23 @@ export const listMenu = [
   {
     namePrincipal: "Global",
     iconMenu: "public",
-    path: "metodproyect",
-    submenu: [{
+    path: "tecnologia",
+    submenu: [/* {
       nameSubmenu: "Metodología de proyectos",
       path: "metodproyect"
-    },
+    }, */
     {
       nameSubmenu: "Tecnología",
       path: "tecnologia"
     },
-    {
+    /* {
       nameSubmenu: "Uso de Azure DevOps, Scrum",
       path: "usoazure"
     },
     {
       nameSubmenu: "Distribucion de carpetas",
       path: "folderdistribution"
-    }
+    } */
     ]
   },
   {
@@ -49,10 +49,10 @@ export const listMenu = [
       nameSubmenu: "Mapa de desarrollo",
       path: "developmap"
     },
-    {
+    /* {
       nameSubmenu: "Uso de variables de ambiente Prod/Dev",
       path: "enviromentvariables"
-    },
+    }, */
     {
       nameSubmenu: "Peticiones HTTP",
       path: "peticioneshttp"
@@ -75,20 +75,20 @@ export const listMenu = [
       nameSubmenu: "Buenas Practicas y código limpio",
       path: "backbuenaspracticas"
     },
-    {
+    /* {
       nameSubmenu: "Azure Functions",
       path: "azurefunctions"
-    }
+    } */
     ]
   },
   {
     namePrincipal: "Frontend",
     iconMenu: "code",
-    path: "frontbuenaspracticas",
-    submenu: [{
+    path: "bem",
+    submenu: [/* {
       nameSubmenu: "Buenas Practicas",
       path: "frontbuenaspracticas"
-    },
+    }, */
     {
       nameSubmenu: "BEM",
       path: "bem"
