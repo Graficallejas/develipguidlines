@@ -90,8 +90,32 @@ export const listMenu = [
       path: "frontbuenaspracticas"
     }, */
     {
+      nameSubmenu: "Scope",
+      path: "scope"
+    },
+    {
       nameSubmenu: "BEM",
       path: "bem"
+    },
+    {
+      nameSubmenu: "Responsive web design",
+      path: "responsive"
+    },
+    {
+      nameSubmenu: "JavaScript Clean Coding Best Practices",
+      path: "jsCleanCode"
+    },{
+      nameSubmenu: "Programación modular",
+      path: "modularDevelop"
+    },{
+      nameSubmenu: "Enrutamiento y Lazy Load",
+      path: "lazyLoad"
+    },{
+      nameSubmenu: "Estructuración de Carpetas",
+      path: "folderDistribution"
+    },{
+      nameSubmenu: "Variables & Mixins",
+      path: "variablesMixins"
     }
     ]
   },
@@ -186,6 +210,13 @@ export const bem =
   icon: "integration_instructions",
   title: "Metodología BEM",
   subtitle: "Para el desarrollo de aplicaciones LOGYCA, se define la estructura del HTML y del SCSS bajo la metodología BEM."
+};
+
+export const scope =
+{
+  icon: "move_down",
+  title: "Scope",
+  subtitle: "Definicion y uso del Scope."
 };
 
 export const ruleUXUI =

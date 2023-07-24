@@ -36,6 +36,13 @@ import { TipografiaComponent } from './tipografia/tipografia.component';
 import { BrandComponent } from './brand/brand.component';
 import { LookAndFeelComponent } from './look-and-feel/look-and-feel.component';
 import { MetodproyectComponent } from './metodproyect/metodproyect.component';
+import { ScopeComponent } from './scope/scope.component';
+import { ResponsiveComponent } from './responsive/responsive.component';
+import { JsCleanCodeBPComponent } from './js-clean-code-bp/js-clean-code-bp.component';
+import { ModularDevelopComponent } from './modular-develop/modular-develop.component';
+import { LazyLoadComponent } from './lazy-load/lazy-load.component';
+import { FolderStructureComponent } from './folder-structure/folder-structure.component';
+import { VariablesMixinsComponent } from './variables-mixins/variables-mixins.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +68,13 @@ import { MetodproyectComponent } from './metodproyect/metodproyect.component';
     BrandComponent,
     LookAndFeelComponent,
     MetodproyectComponent,
+    ScopeComponent,
+    ResponsiveComponent,
+    JsCleanCodeBPComponent,
+    ModularDevelopComponent,
+    LazyLoadComponent,
+    FolderStructureComponent,
+    VariablesMixinsComponent,
   ],
   imports: [
     BrowserModule,

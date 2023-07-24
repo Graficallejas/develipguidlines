@@ -21,6 +21,12 @@ import { ReglasUXComponent } from './reglas-ux/reglas-ux.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TipografiaComponent } from './tipografia/tipografia.component';
 import { UsoAzureComponent } from './uso-azure/uso-azure.component';
+import { ScopeComponent } from './scope/scope.component';
+import { ResponsiveComponent } from './responsive/responsive.component';
+import { JsCleanCodeBPComponent } from './js-clean-code-bp/js-clean-code-bp.component';
+import { ModularDevelopComponent } from './modular-develop/modular-develop.component';
+import { LazyLoadComponent } from './lazy-load/lazy-load.component';
+import { VariablesMixinsComponent } from './variables-mixins/variables-mixins.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -37,6 +43,13 @@ const routes: Routes = [
   { path: 'backbuenaspracticas', component: BuenasPracticasBackComponent},
   { path: 'azurefunctions', component: AzureFunctionsComponent},
   { path: 'bem', component: BemComponent},
+  { path: 'scope', component: ScopeComponent},
+  { path: 'responsive', component: ResponsiveComponent},
+  { path: 'jsCleanCode', component: JsCleanCodeBPComponent},
+  { path: 'modularDevelop', component: ModularDevelopComponent},
+  { path: 'lazyLoad', component: LazyLoadComponent},
+  { path: 'folderDistribution', component: FolderDistributionComponent},
+  { path: 'variablesMixins', component: VariablesMixinsComponent},
   { path: 'frontbuenaspracticas', component: BuenasPracticasFrontComponent},
   { path: 'reglasux', component: ReglasUXComponent},
   { path: 'lookandfeel', component: LookAndFeelComponent},
