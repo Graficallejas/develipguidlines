@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from "../dataInfo";
 
 @Component({
   selector: 'app-responsive',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./responsive.component.scss']
 })
 export class ResponsiveComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.responsiveDesing;
 
   constructor() { }
 

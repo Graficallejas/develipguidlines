@@ -41,7 +41,6 @@ import { ResponsiveComponent } from './responsive/responsive.component';
 import { JsCleanCodeBPComponent } from './js-clean-code-bp/js-clean-code-bp.component';
 import { ModularDevelopComponent } from './modular-develop/modular-develop.component';
 import { LazyLoadComponent } from './lazy-load/lazy-load.component';
-import { FolderStructureComponent } from './folder-structure/folder-structure.component';
 import { VariablesMixinsComponent } from './variables-mixins/variables-mixins.component';
 
 @NgModule({
@@ -73,7 +72,6 @@ import { VariablesMixinsComponent } from './variables-mixins/variables-mixins.co
     JsCleanCodeBPComponent,
     ModularDevelopComponent,
     LazyLoadComponent,
-    FolderStructureComponent,
     VariablesMixinsComponent,
   ],
   imports: [

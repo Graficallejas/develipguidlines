@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from "../dataInfo";
 
 @Component({
   selector: 'app-lazy-load',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lazy-load.component.scss']
 })
 export class LazyLoadComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.lazyLoad;
 
   constructor() { }
 

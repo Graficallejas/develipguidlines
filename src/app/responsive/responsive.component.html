@@ -1,1 +1,28 @@
-<p>responsive works!</p>
+<div class="wrap">
+    <mat-card>
+        <mat-card-header>
+            <div mat-card-avatar class="icon_avatar">
+                <mat-icon>{{cardHead.icon}}</mat-icon>
+            </div>
+            <mat-card-title>{{cardHead.title}}</mat-card-title>
+            <mat-card-subtitle>{{cardHead.subtitle}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                Se recomienda que para el diseño de plataformas se utilice la metodología Mobile first.
+            </p>
+            <p>
+                Para el diseño receptivo se sugiere utilizar los break points delimitados en el siguiente enlace <a href="https://material.io/archive/guidelines/layout/responsive-ui.html#">https://material.io/archive/guidelines/layout/responsive-ui.html#</a>
+            </p>
+            <ul type="square">
+                <li><b>Movil:</b> entre 320 y 479 pixeles</li>
+                <li><b>Tablet pequeña:</b> entre 480 y 600 píxeles</li>
+                <li><b>Tablet grande:</b> entre 840 y 1280 píxeles</li>
+                <li><b>Laptop:</b> entre 1280 y 1440 píxeles</li>
+                <li><b>Pantallas grandes:</b> más de 1440 píxeles</li>
+            </ul>
+            <div class="sectionSubtitle">Buenas prácticas para generar un Media Queries</div>
+            <p>El diseño responsivo tiene como objetivo adaptar la visualización de una página web a cada dispositivo de la mejor manera posible, recomendamos tener en cuenta esto basándonos en la sugerencia de <a href="https://www.w3.org/TR/mediaqueries-3/">https://www.w3.org/TR/mediaqueries-3/</a></p>
+        </mat-card-content>
+    </mat-card>
+</div>

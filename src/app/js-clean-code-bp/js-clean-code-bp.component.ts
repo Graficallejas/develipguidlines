@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from '../dataInfo';
 
 @Component({
   selector: 'app-js-clean-code-bp',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./js-clean-code-bp.component.scss']
 })
 export class JsCleanCodeBPComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.jsCleanCode;
 
   constructor() { }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataInfo from "../dataInfo";
 
 @Component({
   selector: 'app-variables-mixins',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./variables-mixins.component.scss']
 })
 export class VariablesMixinsComponent implements OnInit {
+
+  dataText = dataInfo;
+  cardHead = this.dataText.variablesMixins;
 
   constructor() { }
 

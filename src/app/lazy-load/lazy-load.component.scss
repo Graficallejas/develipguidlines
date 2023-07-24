@@ -1,0 +1,26 @@
+.wrap{
+    mat-card{
+        mat-card-content{
+            .mapImg{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .wrap{
+        mat-card{
+            mat-card-content{
+                .mapImg{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+

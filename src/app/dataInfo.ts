@@ -219,6 +219,48 @@ export const scope =
   subtitle: "Definicion y uso del Scope."
 };
 
+export const responsiveDesing =
+{
+  icon: "devices",
+  title: "Responsive web design",
+  subtitle: "Recomendaciones para el diseño responsivo."
+};
+
+export const jsCleanCode =
+{
+  icon: "javascript",
+  title: "JavaScript Clean Coding Best Practices",
+  subtitle: "Recomendaciones de código limpio."
+};
+
+export const modularDevelop =
+{
+  icon: "view_module",
+  title: "Programación modular",
+  subtitle: ""
+};
+
+export const lazyLoad =
+{
+  icon: "model_training",
+  title: "Enrutamiento y Lazy Load",
+  subtitle: ""
+};
+
+export const folderstructure =
+{
+  icon: "topic",
+  title: "Estructuración de Carpetas",
+  subtitle: ""
+};
+
+export const variablesMixins =
+{
+  icon: "css",
+  title: "Variables & Mixins",
+  subtitle: "Recomendaciones para la reutilizacion de estilos y librerias sugeridas."
+};
+
 export const ruleUXUI =
 {
   icon: "domain_verification",

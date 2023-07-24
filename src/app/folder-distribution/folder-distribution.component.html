@@ -1,1 +1,41 @@
-<p>folder-distribution works!</p>
+<div class="wrap">
+    <mat-card>
+        <mat-card-header>
+            <div mat-card-avatar class="icon_avatar">
+                <mat-icon>{{cardHead.icon}}</mat-icon>
+            </div>
+            <mat-card-title>{{cardHead.title}}</mat-card-title>
+            <mat-card-subtitle>{{cardHead.subtitle}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                Estructurar carpetas es el arte de organizar nuestro proyecto, Angular cli nos provee una estructura
+                básica de la cual podemos partir para iniciar nuestro proyecto pero se puede volver algo tedioso a
+                medida que nuestro proyecto empieza a tener muchos módulos.
+            </p>
+            <mat-card-content>
+                <div class="mapImg_full">
+                    <img src="../../assets/folder structure.jpg">
+                </div>
+            </mat-card-content>
+
+            <p>
+                Para hacer más escalable el proyecto se ha decidido seguir el siguiente patrón de estructura de
+                carpetas:
+                <br>
+                Partiendo de la carpeta base (app) vamos a encontrar la carpeta modules donde tendremos los distintos
+                módulos del sistema, cada uno de estos trabajando de forma independiente con carga perezosa .
+                Cada módulo en sí contiene los distintos componentes principales que lo conforman y estos su manejador
+                de estado, servicios, archivo de interfaces y componentes complementarios o modales que este mismo
+                requiera.
+
+            </p>
+            <mat-card-content>
+                <div class="mapImg">
+                    <img src="../../assets/folder structure_2.jpg">
+                </div>
+            </mat-card-content>
+
+        </mat-card-content>
+    </mat-card>
+</div>

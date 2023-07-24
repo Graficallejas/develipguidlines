@@ -1,1 +1,27 @@
-<p>lazy-load works!</p>
+<div class="wrap">
+    <mat-card>
+        <mat-card-header>
+            <div mat-card-avatar class="icon_avatar">
+                <mat-icon>{{cardHead.icon}}</mat-icon>
+            </div>
+            <mat-card-title>{{cardHead.title}}</mat-card-title>
+            <mat-card-subtitle>{{cardHead.subtitle}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                Cargar sólo lo necesario bajo demanda, de esta manera mejoramos el performance de la aplicación.
+            </p>
+            <mat-card-content>
+                <div class="mapImg">
+                    <img src="../../assets/lazyload.jpg">
+                </div>
+            </mat-card-content>
+
+            <p>
+                De esta manera se carga lo necesario cuando el usuario está en el módulo correspondiente.
+            </p>
+            
+        </mat-card-content>
+    </mat-card>
+</div>
+
